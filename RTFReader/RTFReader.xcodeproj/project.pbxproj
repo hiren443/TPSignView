@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B18A66F193861A0002CFBD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18A66E193861A0002CFBD4 /* Foundation.framework */; };
+		4B18A671193861A0002CFBD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18A670193861A0002CFBD4 /* CoreGraphics.framework */; };
+		4B18A673193861A0002CFBD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18A672193861A0002CFBD4 /* UIKit.framework */; };
+		4B18A679193861A0002CFBD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B18A677193861A0002CFBD4 /* InfoPlist.strings */; };
+		4B18A67B193861A0002CFBD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18A67A193861A0002CFBD4 /* main.m */; };
+		4B18A67F193861A0002CFBD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18A67E193861A0002CFBD4 /* AppDelegate.m */; };
+		4B18A681193861A0002CFBD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B18A680193861A0002CFBD4 /* Images.xcassets */; };
+		4B18A688193861A0002CFBD4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18A687193861A0002CFBD4 /* XCTest.framework */; };
+		4B18A689193861A0002CFBD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18A66E193861A0002CFBD4 /* Foundation.framework */; };
+		4B18A68A193861A0002CFBD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18A672193861A0002CFBD4 /* UIKit.framework */; };
+		4B18A692193861A0002CFBD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B18A690193861A0002CFBD4 /* InfoPlist.strings */; };
+		4B18A694193861A0002CFBD4 /* RTFReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18A693193861A0002CFBD4 /* RTFReaderTests.m */; };
+		4B18A6A0193861BD002CFBD4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18A69E193861BD002CFBD4 /* HomeViewController.m */; };
+		4B18A6A1193861BD002CFBD4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B18A69F193861BD002CFBD4 /* HomeViewController.xib */; };
+		4B18A6A519386778002CFBD4 /* TempLetter.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4B18A6A419386778002CFBD4 /* TempLetter.rtf */; };
+		4B18A6A919386ABB002CFBD4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18A6A719386ABB002CFBD4 /* RootViewController.m */; };
+		4B18A6AA19386ABB002CFBD4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B18A6A819386ABB002CFBD4 /* RootViewController.xib */; };
+		4B18A6B0193883EC002CFBD4 /* fingerTip.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B18A6AB193883EC002CFBD4 /* fingerTip.png */; };
+		4B18A6B1193883EC002CFBD4 /* SignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18A6AD193883EC002CFBD4 /* SignatureView.m */; };
+		4B18A6B2193883EC002CFBD4 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18A6AF193883EC002CFBD4 /* SignatureViewController.m */; };
+		4B18A6B419388A37002CFBD4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18A6B319388A37002CFBD4 /* OpenGLES.framework */; };
+		4B18A6B619388A43002CFBD4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B18A6B519388A43002CFBD4 /* QuartzCore.framework */; };
+		4B357825193CB6A20059E087 /* BNHtmlPdfKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B357824193CB6A20059E087 /* BNHtmlPdfKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B18A68B193861A0002CFBD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B18A663193861A0002CFBD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B18A66A193861A0002CFBD4;
+			remoteInfo = RTFReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B18A66B193861A0002CFBD4 /* RTFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B18A66E193861A0002CFBD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B18A670193861A0002CFBD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B18A672193861A0002CFBD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B18A676193861A0002CFBD4 /* RTFReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTFReader-Info.plist"; sourceTree = "<group>"; };
+		4B18A678193861A0002CFBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B18A67A193861A0002CFBD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B18A67C193861A0002CFBD4 /* RTFReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTFReader-Prefix.pch"; sourceTree = "<group>"; };
+		4B18A67D193861A0002CFBD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B18A67E193861A0002CFBD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B18A680193861A0002CFBD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B18A686193861A0002CFBD4 /* RTFReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTFReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B18A687193861A0002CFBD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B18A68F193861A0002CFBD4 /* RTFReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTFReaderTests-Info.plist"; sourceTree = "<group>"; };
+		4B18A691193861A0002CFBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B18A693193861A0002CFBD4 /* RTFReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTFReaderTests.m; sourceTree = "<group>"; };
+		4B18A69D193861BD002CFBD4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4B18A69E193861BD002CFBD4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4B18A69F193861BD002CFBD4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		4B18A6A419386778002CFBD4 /* TempLetter.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = TempLetter.rtf; sourceTree = "<group>"; };
+		4B18A6A619386ABB002CFBD4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4B18A6A719386ABB002CFBD4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4B18A6A819386ABB002CFBD4 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		4B18A6AB193883EC002CFBD4 /* fingerTip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fingerTip.png; sourceTree = "<group>"; };
+		4B18A6AC193883EC002CFBD4 /* SignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureView.h; sourceTree = "<group>"; };
+		4B18A6AD193883EC002CFBD4 /* SignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureView.m; sourceTree = "<group>"; };
+		4B18A6AE193883EC002CFBD4 /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		4B18A6AF193883EC002CFBD4 /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		4B18A6B319388A37002CFBD4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4B18A6B519388A43002CFBD4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4B357823193CB6A20059E087 /* BNHtmlPdfKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNHtmlPdfKit.h; sourceTree = "<group>"; };
+		4B357824193CB6A20059E087 /* BNHtmlPdfKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNHtmlPdfKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B18A668193861A0002CFBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18A6B619388A43002CFBD4 /* QuartzCore.framework in Frameworks */,
+				4B18A6B419388A37002CFBD4 /* OpenGLES.framework in Frameworks */,
+				4B18A671193861A0002CFBD4 /* CoreGraphics.framework in Frameworks */,
+				4B18A673193861A0002CFBD4 /* UIKit.framework in Frameworks */,
+				4B18A66F193861A0002CFBD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18A683193861A0002CFBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18A688193861A0002CFBD4 /* XCTest.framework in Frameworks */,
+				4B18A68A193861A0002CFBD4 /* UIKit.framework in Frameworks */,
+				4B18A689193861A0002CFBD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B18A662193861A0002CFBD4 = {
+			isa = PBXGroup;
+			children = (
+				4B18A674193861A0002CFBD4 /* RTFReader */,
+				4B18A68D193861A0002CFBD4 /* RTFReaderTests */,
+				4B18A66D193861A0002CFBD4 /* Frameworks */,
+				4B18A66C193861A0002CFBD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B18A66C193861A0002CFBD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B18A66B193861A0002CFBD4 /* RTFReader.app */,
+				4B18A686193861A0002CFBD4 /* RTFReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B18A66D193861A0002CFBD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B18A6B519388A43002CFBD4 /* QuartzCore.framework */,
+				4B18A6B319388A37002CFBD4 /* OpenGLES.framework */,
+				4B18A66E193861A0002CFBD4 /* Foundation.framework */,
+				4B18A670193861A0002CFBD4 /* CoreGraphics.framework */,
+				4B18A672193861A0002CFBD4 /* UIKit.framework */,
+				4B18A687193861A0002CFBD4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B18A674193861A0002CFBD4 /* RTFReader */ = {
+			isa = PBXGroup;
+			children = (
+				4B357823193CB6A20059E087 /* BNHtmlPdfKit.h */,
+				4B357824193CB6A20059E087 /* BNHtmlPdfKit.m */,
+				4B18A6AB193883EC002CFBD4 /* fingerTip.png */,
+				4B18A6AC193883EC002CFBD4 /* SignatureView.h */,
+				4B18A6AD193883EC002CFBD4 /* SignatureView.m */,
+				4B18A6AE193883EC002CFBD4 /* SignatureViewController.h */,
+				4B18A6AF193883EC002CFBD4 /* SignatureViewController.m */,
+				4B18A67D193861A0002CFBD4 /* AppDelegate.h */,
+				4B18A67E193861A0002CFBD4 /* AppDelegate.m */,
+				4B18A680193861A0002CFBD4 /* Images.xcassets */,
+				4B18A675193861A0002CFBD4 /* Supporting Files */,
+				4B18A69D193861BD002CFBD4 /* HomeViewController.h */,
+				4B18A69E193861BD002CFBD4 /* HomeViewController.m */,
+				4B18A69F193861BD002CFBD4 /* HomeViewController.xib */,
+				4B18A6A619386ABB002CFBD4 /* RootViewController.h */,
+				4B18A6A719386ABB002CFBD4 /* RootViewController.m */,
+				4B18A6A819386ABB002CFBD4 /* RootViewController.xib */,
+			);
+			path = RTFReader;
+			sourceTree = "<group>";
+		};
+		4B18A675193861A0002CFBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B18A6A419386778002CFBD4 /* TempLetter.rtf */,
+				4B18A676193861A0002CFBD4 /* RTFReader-Info.plist */,
+				4B18A677193861A0002CFBD4 /* InfoPlist.strings */,
+				4B18A67A193861A0002CFBD4 /* main.m */,
+				4B18A67C193861A0002CFBD4 /* RTFReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B18A68D193861A0002CFBD4 /* RTFReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B18A693193861A0002CFBD4 /* RTFReaderTests.m */,
+				4B18A68E193861A0002CFBD4 /* Supporting Files */,
+			);
+			path = RTFReaderTests;
+			sourceTree = "<group>";
+		};
+		4B18A68E193861A0002CFBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B18A68F193861A0002CFBD4 /* RTFReaderTests-Info.plist */,
+				4B18A690193861A0002CFBD4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B18A66A193861A0002CFBD4 /* RTFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B18A697193861A0002CFBD4 /* Build configuration list for PBXNativeTarget "RTFReader" */;
+			buildPhases = (
+				4B18A667193861A0002CFBD4 /* Sources */,
+				4B18A668193861A0002CFBD4 /* Frameworks */,
+				4B18A669193861A0002CFBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTFReader;
+			productName = RTFReader;
+			productReference = 4B18A66B193861A0002CFBD4 /* RTFReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B18A685193861A0002CFBD4 /* RTFReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B18A69A193861A0002CFBD4 /* Build configuration list for PBXNativeTarget "RTFReaderTests" */;
+			buildPhases = (
+				4B18A682193861A0002CFBD4 /* Sources */,
+				4B18A683193861A0002CFBD4 /* Frameworks */,
+				4B18A684193861A0002CFBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B18A68C193861A0002CFBD4 /* PBXTargetDependency */,
+			);
+			name = RTFReaderTests;
+			productName = RTFReaderTests;
+			productReference = 4B18A686193861A0002CFBD4 /* RTFReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B18A663193861A0002CFBD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = digicorp;
+				TargetAttributes = {
+					4B18A685193861A0002CFBD4 = {
+						TestTargetID = 4B18A66A193861A0002CFBD4;
+					};
+				};
+			};
+			buildConfigurationList = 4B18A666193861A0002CFBD4 /* Build configuration list for PBXProject "RTFReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B18A662193861A0002CFBD4;
+			productRefGroup = 4B18A66C193861A0002CFBD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B18A66A193861A0002CFBD4 /* RTFReader */,
+				4B18A685193861A0002CFBD4 /* RTFReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B18A669193861A0002CFBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18A679193861A0002CFBD4 /* InfoPlist.strings in Resources */,
+				4B18A681193861A0002CFBD4 /* Images.xcassets in Resources */,
+				4B18A6AA19386ABB002CFBD4 /* RootViewController.xib in Resources */,
+				4B18A6A519386778002CFBD4 /* TempLetter.rtf in Resources */,
+				4B18A6B0193883EC002CFBD4 /* fingerTip.png in Resources */,
+				4B18A6A1193861BD002CFBD4 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18A684193861A0002CFBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18A692193861A0002CFBD4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B18A667193861A0002CFBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B357825193CB6A20059E087 /* BNHtmlPdfKit.m in Sources */,
+				4B18A6B1193883EC002CFBD4 /* SignatureView.m in Sources */,
+				4B18A6B2193883EC002CFBD4 /* SignatureViewController.m in Sources */,
+				4B18A67F193861A0002CFBD4 /* AppDelegate.m in Sources */,
+				4B18A67B193861A0002CFBD4 /* main.m in Sources */,
+				4B18A6A919386ABB002CFBD4 /* RootViewController.m in Sources */,
+				4B18A6A0193861BD002CFBD4 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18A682193861A0002CFBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18A694193861A0002CFBD4 /* RTFReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B18A68C193861A0002CFBD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B18A66A193861A0002CFBD4 /* RTFReader */;
+			targetProxy = 4B18A68B193861A0002CFBD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B18A677193861A0002CFBD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B18A678193861A0002CFBD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B18A690193861A0002CFBD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B18A691193861A0002CFBD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B18A695193861A0002CFBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6EACDBF8-57DE-4F4C-8934-7ED048C73500";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B18A696193861A0002CFBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "6EACDBF8-57DE-4F4C-8934-7ED048C73500";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B18A698193861A0002CFBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTFReader/RTFReader-Prefix.pch";
+				INFOPLIST_FILE = "RTFReader/RTFReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6EACDBF8-57DE-4F4C-8934-7ED048C73500";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B18A699193861A0002CFBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTFReader/RTFReader-Prefix.pch";
+				INFOPLIST_FILE = "RTFReader/RTFReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6EACDBF8-57DE-4F4C-8934-7ED048C73500";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4B18A69B193861A0002CFBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RTFReader.app/RTFReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTFReader/RTFReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RTFReaderTests/RTFReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4B18A69C193861A0002CFBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RTFReader.app/RTFReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTFReader/RTFReader-Prefix.pch";
+				INFOPLIST_FILE = "RTFReaderTests/RTFReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B18A666193861A0002CFBD4 /* Build configuration list for PBXProject "RTFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B18A695193861A0002CFBD4 /* Debug */,
+				4B18A696193861A0002CFBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B18A697193861A0002CFBD4 /* Build configuration list for PBXNativeTarget "RTFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B18A698193861A0002CFBD4 /* Debug */,
+				4B18A699193861A0002CFBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B18A69A193861A0002CFBD4 /* Build configuration list for PBXNativeTarget "RTFReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B18A69B193861A0002CFBD4 /* Debug */,
+				4B18A69C193861A0002CFBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B18A663193861A0002CFBD4 /* Project object */;
+}
